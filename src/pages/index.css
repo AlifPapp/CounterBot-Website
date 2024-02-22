@@ -1,0 +1,57 @@
+/* Feature box */
+.feature-box {
+    @apply flex flex-col items-center justify-center w-full relative max-w-sm px-4 py-6 md:px-6 md:py-8 rounded-lg shadow-md;
+    @apply bg-white dark:bg-neutral-900;
+    @apply hover:bg-neutral-50 dark:hover:bg-neutral-950;
+}
+.feature-box-icon {
+    @apply flex items-center justify-center w-16 h-16 mb-4 rounded-full;
+    @apply bg-indigo-50 dark:bg-indigo-600;
+}
+.feature-box h4 {
+    @apply text-lg font-medium text-center text-neutral-900 dark:text-neutral-200;
+}
+.feature-box p {
+    @apply mt-2 text-sm text-center text-neutral-600 dark:text-neutral-400;
+}
+.feature-box a {
+    @apply mt-4 flex items-center justify-center z-10 px-4 py-2 text-sm font-medium rounded-md;
+    @apply text-white bg-indigo-600 hover:bg-indigo-800;
+}
+
+/* Feature box outline */
+.feature-box::before,
+.feature-box::after {
+    content: "";
+    width: 0;
+    height: 0;
+    position: absolute;
+    @apply rounded-lg;
+    border: 2px solid transparent;
+}
+
+.feature-box::before {
+    left: -2px;
+    top: -2px;
+}
+
+.feature-box::after {
+    right: -2px;
+    bottom: -2px;
+}
+
+.feature-box:hover::before,
+.feature-box:hover::after {
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+}
+
+.feature-box:hover::before {
+    transition: width 0.2s linear, height 0.2s linear 0.2s;
+    @apply border-t-indigo-600 border-r-indigo-600;
+}
+
+.feature-box:hover::after {
+    transition: width 0.2s linear 0.4s, height 0.2s linear 0.6s, border-color 0.4s step-end;
+    @apply border-b-indigo-600 border-l-indigo-600;
+}
