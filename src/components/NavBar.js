@@ -70,7 +70,7 @@ const NavBar = () => {
                                         <path fillRule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clipRule="evenodd" />
                                     </svg>
                                 </button>
-                                <div onMouseLeave={() => setFlyer(false)}
+                                <button onMouseLeave={() => setFlyer(false)}
                                     className={
                                         flyer
                                             ? " opacity-100 translate-y-0 transition ease-out duration-200 absolute z-10 -ml-4 mt-3 transform px-2 w-screen max-w-[14rem] sm:px-0 lg:ml-0 lg:left-1/2 lg:-translate-x-1/2"
@@ -78,7 +78,7 @@ const NavBar = () => {
                                     }>
                                     <div className="rounded-lg shadow-lg ring-1 ring-black dark:ring-white ring-opacity-5 overflow-hidden">
                                         <div className="relative grid gap-6 bg-white dark:bg-black px-5 py-6 sm:gap-8 sm:p-8">
-                                            <a href="/topgg" target="_blank"
+                                            <a href="https://top.gg/bot/430340956865298432" target="_blank" rel="noopener noreferrer"
                                                 className="-m-3 p-3 flex items-start rounded-lg text-black dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                                 {/* top.gg icon */}
                                                 <svg viewBox="120 120 580 580" fill="currentColor" className="w-6 h-6">
@@ -91,7 +91,7 @@ const NavBar = () => {
                                                 </div>
                                             </a>
 
-                                            <a href="/discordbotlist" target="_blank"
+                                            <a href="https://discordbotlist.com/bots/counter-9108" target="_blank" rel="noopener noreferrer"
                                                 className="-m-3 p-3 flex items-start rounded-lg text-black dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                                 {/* discordbotlist icon */}
                                                 <svg viewBox="0 0 500 500" width="24" fill="currentColor" >
@@ -108,18 +108,18 @@ const NavBar = () => {
                                             </a>
                                         </div>
                                     </div>
-                                </div>
+                                </button>
                             </div>
                             {/* Support Button */}
                             <a
-                                href="/support" target="_blank"
+                                href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noopener noreferrer"
                                 className="text-base font-medium text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200"
                             >
                                 Support
                             </a>
                             {/* Documentation Button */}
                             <a
-                                href="https://docs.counterbot.xyz/" target="_blank" rel="noreferrer"
+                                href="https://docs.counterbot.xyz/" target="_blank" rel="noopener noreferrer"
                                 className="text-base font-medium text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200"
                             >
                                 Documentation
@@ -128,7 +128,7 @@ const NavBar = () => {
                         {/* End buttons */}
                         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 space-x-5">
                             {/* Add Bot Button */}
-                            <a href="/invite" target="_blank"
+                            <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
                                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center h-10 px-4 py-2 rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800">
                                 Add Bot
                             </a>
@@ -218,7 +218,7 @@ const NavBar = () => {
                                         :
                                         "opacity-0 translate-y-1 absolute -z-10 grid gap-y-8"}>
                                     {/* Top.gg */}
-                                    <a href="/topgg" target="_blank"
+                                    <a href="https://top.gg/bot/430340956865298432" target="_blank" rel="noopener noreferrer"
                                         className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-900">
                                         {/* top.gg icon */}
                                         <svg viewBox="120 120 580 580" fill="currentColor" className="w-6 h-6">
@@ -230,7 +230,7 @@ const NavBar = () => {
                                         </span>
                                     </a>
                                     {/* Discordbotlist */}
-                                    <a href="/discordbotlist" target="_blank"
+                                    <a href="https://discordbotlist.com/bots/counter-9108" target="_blank" rel="noopener noreferrer"
                                         className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-900">
                                         {/* discordbotlist icon */}
                                         <svg viewBox="0 0 500 500" width="24" fill="currentColor" >
@@ -246,7 +246,7 @@ const NavBar = () => {
                                     </a>
                                 </div>
                                 {/* Support Button */}
-                                <a href="/support" target="_blank"
+                                <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noopener noreferrer"
                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                     {/* Heroicon name: chat bubble */}
                                     <svg
@@ -259,7 +259,7 @@ const NavBar = () => {
                                     </span>
                                 </a>
                                 {/* Documentation Button */}
-                                <a href="https://docs.counterbot.xyz/" target="_blank" rel="noreferrer"
+                                <a href="https://docs.counterbot.xyz/" target="_blank" rel="noopener noreferrer"
                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                     {/* Heroicon name: outline/shield-check */}
                                     <svg
@@ -277,7 +277,7 @@ const NavBar = () => {
                         {/* Add Bot Button */}
                         <div className="py-5 px-5 space-y-6">
                             <div>
-                                <a href="/invite" target="_blank"
+                                <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
                                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800">
                                     Add Bot
                                 </a>

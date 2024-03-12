@@ -24,7 +24,7 @@ const IndexPage = () => {
             Your Advanced Counting Bot, with Fun Game Modes, Easy Channel Setup, and Font Customization.
           </p>
           <div className="mt-8 mb-4 md:mt-14">
-            <a href="/invite" target="_blank"
+            <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
               className="px-4 md:px-8 py-3 md:py-4 text-base md:text-lg font-medium text-white rounded-md bg-indigo-600 hover:bg-indigo-800">
               Invite Counter
             </a>
@@ -54,7 +54,7 @@ const IndexPage = () => {
               </div>
               <h4>Invite Counter</h4>
               <p>Invite Counter to your server to get started.</p>
-              <a href="/invite" target="_blank">Invite Counter</a>
+              <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite Counter</a>
             </div>
             {/* Step 2 */}
             <div className="feature-box">
@@ -67,7 +67,7 @@ const IndexPage = () => {
               </div>
               <h4>Setup Counter</h4>
               <p>Setup Counter by inputing the command <code>/setup</code> in your server.</p>
-              <a href="/invite">Setup Counter</a>
+              <a href="https://docs.counterbot.xyz/commands/setup">Setup Counter</a>
             </div>
             {/* Step 3 */}
             <div className="feature-box max-w-sm px-4 py-6 md:px-6 md:py-8">

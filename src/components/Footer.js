@@ -34,9 +34,12 @@ const Footer = () => {
                     <a href="/privacy-policy" className="hover:text-black dark:hover:text-neutral-200">Privacy Policy</a>
                 </div>
                 <div className="flex flex-col min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
-                    <a href="https://docs.counterbot.xyz/" className="hover:text-black dark:hover:text-neutral-200">Documentation</a>
-                    <a href="/support" target="_blank" className="hover:text-black dark:hover:text-neutral-200">Support</a>
-                    <a href="/invite" target="_blank" className="hover:text-black dark:hover:text-neutral-200">Invite Counter</a>
+                    <a href="https://docs.counterbot.xyz/"
+                        className="hover:text-black dark:hover:text-neutral-200">Documentation</a>
+                    <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noreferrer"
+                        className="hover:text-black dark:hover:text-neutral-200">Support</a>
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noreferrer"
+                        className="hover:text-black dark:hover:text-neutral-200">Invite Counter</a>
                 </div>
             </div>
             {/* Creator ref */}
