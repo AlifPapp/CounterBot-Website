@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Counter`,
-    siteUrl: `https://counterbot.xyz`,
+    siteUrl: `counterbot.app`,
     pathPrefix: '/',
   },
   flags: {
@@ -26,7 +26,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-cname`,
       options: {
-        hostname: `counterbot.xyz`,
+        hostname: `counterbot.app`,
       },
     },
   ]

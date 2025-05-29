@@ -67,7 +67,7 @@ const IndexPage = () => {
               </div>
               <h4>Setup Counter</h4>
               <p>Setup Counter by inputing the command <code>/setup</code> in your server.</p>
-              <a href="https://docs.counterbot.xyz/commands/setup">Setup Counter</a>
+              <a href="https://docs.counterbot.app/commands/setup">Setup Counter</a>
             </div>
             {/* Step 3 */}
             <div className="feature-box max-w-sm px-4 py-6 md:px-6 md:py-8">
@@ -79,7 +79,7 @@ const IndexPage = () => {
               </div>
               <h4>Enjoy Counter</h4>
               <p>Check out the documentation for a list of commands.</p>
-              <a href="https://docs.counterbot.xyz/">Documentation</a>
+              <a href="https://docs.counterbot.app/">Documentation</a>
             </div>
           </div>
         </div>

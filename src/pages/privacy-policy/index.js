@@ -47,7 +47,7 @@ const PageNotFound = () => {
           <h2 className="mt-4 md:mt-8 text-2xl text-justify md:text-3xl text-neutral-900 dark:text-neutral-300">Data Request and Removal Process</h2>
           {/* Contents */}
           <p className="mt-4 md:mt-6 text-xl text-justify md:text-2xl text-neutral-800 dark:text-neutral-400">
-          You can use the command <a href="https://docs.counterbot.xyz/commands/deletedata" target="_blank" rel="noreferrer"><b>/deletedata</b></a> to delete all information related to your Discord account.
+          You can use the command <a href="https://docs.counterbot.app/commands/deletedata" target="_blank" rel="noreferrer"><b>/deletedata</b></a> to delete all information related to your Discord account.
           <br></br>
           Please join our Discord support server and open a Ticket in the #ticket channel if you have any queries. Unfortunately, we cannot help you via external channels, as we cannot verify your identity reliably.
           </p>

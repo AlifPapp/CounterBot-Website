@@ -119,7 +119,7 @@ const NavBar = () => {
                             </a>
                             {/* Documentation Button */}
                             <a
-                                href="https://docs.counterbot.xyz/" target="_blank" rel="noopener noreferrer"
+                                href="https://docs.counterbot.app/" target="_blank" rel="noopener noreferrer"
                                 className="text-base font-medium text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200"
                             >
                                 Documentation
@@ -259,7 +259,7 @@ const NavBar = () => {
                                     </span>
                                 </a>
                                 {/* Documentation Button */}
-                                <a href="https://docs.counterbot.xyz/" target="_blank" rel="noopener noreferrer"
+                                <a href="https://docs.counterbot.app/" target="_blank" rel="noopener noreferrer"
                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                     {/* Heroicon name: outline/shield-check */}
                                     <svg

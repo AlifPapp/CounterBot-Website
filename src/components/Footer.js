@@ -34,7 +34,7 @@ const Footer = () => {
                     <a href="/privacy-policy" className="hover:text-black dark:hover:text-neutral-200">Privacy Policy</a>
                 </div>
                 <div className="flex flex-col min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
-                    <a href="https://docs.counterbot.xyz/"
+                    <a href="https://docs.counterbot.app/"
                         className="hover:text-black dark:hover:text-neutral-200">Documentation</a>
                     <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noreferrer"
                         className="hover:text-black dark:hover:text-neutral-200">Support</a>
