@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 
 import logo from "../images/icon.png"
 
@@ -16,14 +17,14 @@ const NavBar = () => {
                     <div className="flex justify-between items-center border-b-2 border-neutral-200 dark:border-neutral-50 py-6 md:justify-start md:space-x-10">
                         {/* Logo */}
                         <div className="flex justify-start lg:w-0 lg:flex-1">
-                            <a href="/" className="flex col items-center">
+                            <Link to="/" className="flex col items-center">
                                 <img
                                     className="h-10 w-auto"
                                     src={logo}
                                     alt=""
                                 />
                                 <span className="pl-2 text-2xl font-bold text-indigo-600">Counter</span>
-                            </a>
+                            </Link>
                         </div>
                         {/* Mobile menu */}
                         <div className="justify-end -my-2 md:hidden space-x-4">
@@ -78,7 +79,7 @@ const NavBar = () => {
                                     }>
                                     <div className="rounded-lg shadow-lg ring-1 ring-black dark:ring-white ring-opacity-5 overflow-hidden">
                                         <div className="relative grid gap-6 bg-white dark:bg-black px-5 py-6 sm:gap-8 sm:p-8">
-                                            <a href="https://top.gg/bot/430340956865298432" target="_blank" rel="noopener noreferrer"
+                                            <a href="https://top.gg/bot/1386688760518803526/vote" target="_blank" rel="noopener noreferrer"
                                                 className="-m-3 p-3 flex items-start rounded-lg text-black dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                                 {/* top.gg icon */}
                                                 <svg viewBox="120 120 580 580" fill="currentColor" className="w-6 h-6">
@@ -91,7 +92,7 @@ const NavBar = () => {
                                                 </div>
                                             </a>
 
-                                            <a href="https://discordbotlist.com/bots/counter-9108" target="_blank" rel="noopener noreferrer"
+                                            <a href="https://discordbotlist.com/bots/counter-2119/upvote" target="_blank" rel="noopener noreferrer"
                                                 className="-m-3 p-3 flex items-start rounded-lg text-black dark:text-white hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                                 {/* discordbotlist icon */}
                                                 <svg viewBox="0 0 500 500" width="24" fill="currentColor" >
@@ -112,7 +113,7 @@ const NavBar = () => {
                             </div>
                             {/* Support Button */}
                             <a
-                                href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noopener noreferrer"
+                                href="https://discord.gg/BdjUTS8tb3" target="_blank" rel="noopener noreferrer"
                                 className="text-base font-medium text-neutral-500 dark:text-neutral-400 hover:text-neutral-900 dark:hover:text-neutral-200"
                             >
                                 Support
@@ -128,7 +129,7 @@ const NavBar = () => {
                         {/* End buttons */}
                         <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0 space-x-5">
                             {/* Add Bot Button */}
-                            <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
+                            <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
                                 className="ml-8 whitespace-nowrap inline-flex items-center justify-center h-10 px-4 py-2 rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800">
                                 Add Bot
                             </a>
@@ -160,14 +161,14 @@ const NavBar = () => {
                         <div className="pt-4 pb-6 flex items-center justify-between">
                             {/* Logo */}
                             <div className="flex justify-start lg:w-0 lg:flex-1">
-                                <a href="/" className="flex col items-center">
+                                <Link to="/" className="flex col items-center">
                                     <img
                                         className="h-10 w-auto"
                                         src={logo}
                                         alt=""
                                     />
                                     <span className="pl-2 text-2xl font-bold text-indigo-600">Counter</span>
-                                </a>
+                                </Link>
                             </div>
                             <div className="justify-end space-x-4">
                                 {/* Light/Dark Mode Toggle */}
@@ -218,7 +219,7 @@ const NavBar = () => {
                                         :
                                         "opacity-0 translate-y-1 absolute -z-10 grid gap-y-8"}>
                                     {/* Top.gg */}
-                                    <a href="https://top.gg/bot/430340956865298432" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://top.gg/bot/1386688760518803526/vote" target="_blank" rel="noopener noreferrer"
                                         className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-900">
                                         {/* top.gg icon */}
                                         <svg viewBox="120 120 580 580" fill="currentColor" className="w-6 h-6">
@@ -230,7 +231,7 @@ const NavBar = () => {
                                         </span>
                                     </a>
                                     {/* Discordbotlist */}
-                                    <a href="https://discordbotlist.com/bots/counter-9108" target="_blank" rel="noopener noreferrer"
+                                    <a href="https://discordbotlist.com/bots/counter-2119/upvote" target="_blank" rel="noopener noreferrer"
                                         className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:text-white dark:hover:bg-neutral-900">
                                         {/* discordbotlist icon */}
                                         <svg viewBox="0 0 500 500" width="24" fill="currentColor" >
@@ -246,7 +247,7 @@ const NavBar = () => {
                                     </a>
                                 </div>
                                 {/* Support Button */}
-                                <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noopener noreferrer"
+                                <a href="https://discord.gg/BdjUTS8tb3" target="_blank" rel="noopener noreferrer"
                                     className="-m-3 p-3 flex items-center rounded-md hover:bg-neutral-100 dark:hover:bg-neutral-900">
                                     {/* Heroicon name: chat bubble */}
                                     <svg
@@ -277,7 +278,7 @@ const NavBar = () => {
                         {/* Add Bot Button */}
                         <div className="py-5 px-5 space-y-6">
                             <div>
-                                <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
+                                <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
                                     className="w-full flex items-center justify-center px-4 py-2 border border-transparent rounded-md shadow-sm text-base font-medium text-white bg-indigo-600 hover:bg-indigo-800">
                                     Add Bot
                                 </a>

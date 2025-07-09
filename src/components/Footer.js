@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby";
 
 import logo from "../images/icon.png"
 
@@ -30,15 +31,15 @@ const Footer = () => {
                     </p>
                 </div>
                 <div className="flex flex-col min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
-                    <a href="/terms-of-service" className="hover:text-black dark:hover:text-neutral-200">Terms of Service</a>
-                    <a href="/privacy-policy" className="hover:text-black dark:hover:text-neutral-200">Privacy Policy</a>
+                    <Link to="/terms-of-service" className="hover:text-black dark:hover:text-neutral-200">Terms of Service</Link>
+                    <Link to="/privacy-policy" className="hover:text-black dark:hover:text-neutral-200">Privacy Policy</Link>
                 </div>
                 <div className="flex flex-col min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
                     <a href="https://docs.counterbot.app/"
                         className="hover:text-black dark:hover:text-neutral-200">Documentation</a>
                     <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noreferrer"
                         className="hover:text-black dark:hover:text-neutral-200">Support</a>
-                    <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noreferrer"
+                    <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noreferrer"
                         className="hover:text-black dark:hover:text-neutral-200">Invite Counter</a>
                 </div>
             </div>

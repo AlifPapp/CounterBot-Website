@@ -8,11 +8,11 @@ import Footer from "../components/Footer"
 
 const IndexPage = () => {
   return (
-    <div className="md:snap-y md:snap-mandatory h-screen overflow-scroll">
+    <div className="h-screen">
       <NavBar></NavBar>
 
       {/* Heading */}
-      <section className="snap-always snap-start flex flex-col items-center justify-center min-h-screen py-24">
+      <section className="flex flex-col items-center justify-center min-h-screen py-24">
         <div className="flex flex-col w-full max-w-4xl px-6 text-center">
           <h1 className="text-5xl md:text-7xl font-bold tracking-tight text-neutral-900 dark:text-neutral-200">
             <span>Count and collect fonts with </span>
@@ -24,7 +24,7 @@ const IndexPage = () => {
             Your Advanced Counting Bot, with Fun Game Modes, Easy Channel Setup, and Font Customization.
           </p>
           <div className="mt-8 mb-4 md:mt-14">
-            <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
+            <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer"
               className="px-4 md:px-8 py-3 md:py-4 text-base md:text-lg font-medium text-white rounded-md bg-indigo-600 hover:bg-indigo-800">
               Invite Counter
             </a>
@@ -33,7 +33,7 @@ const IndexPage = () => {
       </section>
 
       {/* 3 steps*/}
-      <section className="snap-always snap-start flex flex-col items-center justify-center min-h-screen py-24">
+      <section className="flex flex-col items-center justify-center min-h-screen py-24">
         <div className="flex flex-col w-full max-w-2xl px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-neutral-900 dark:text-neutral-200">
             <span>3 Steps</span>
@@ -54,7 +54,7 @@ const IndexPage = () => {
               </div>
               <h4>Invite Counter</h4>
               <p>Invite Counter to your server to get started.</p>
-              <a href="https://discord.com/api/oauth2/authorize?client_id=430340956865298432&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite Counter</a>
+              <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noopener noreferrer">Invite Counter</a>
             </div>
             {/* Step 2 */}
             <div className="feature-box">
@@ -86,7 +86,7 @@ const IndexPage = () => {
       </section>
 
       {/* Features*/}
-      <section className="snap-always snap-start flex flex-col items-center justify-center min-h-screen py-24">
+      <section className="flex flex-col items-center justify-center min-h-screen py-24">
         <div className="flex flex-col w-full max-w-2xl px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-neutral-900 dark:text-neutral-200">
             <span>Features</span>
@@ -192,7 +192,7 @@ const IndexPage = () => {
       </section>
 
       {/* Youtube Video */}
-      <section className="snap-always snap-start flex flex-col items-center justify-center min-h-screen py-24">
+      <section className="flex flex-col items-center justify-center min-h-screen py-24">
         <div className="flex flex-col w-full max-w-2xl px-6 text-center">
           <h1 className="text-4xl md:text-6xl font-bold text-neutral-900 dark:text-neutral-200">
             <span>Showcase</span>
