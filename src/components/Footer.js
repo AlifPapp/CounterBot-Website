@@ -9,14 +9,14 @@ const Footer = () => {
             <div className="grid grid-cols-3 gap-x-2 gap-y-1 text-left pb-4 mx-2 border-b-2 border-neutral-200 dark:border-neutral-50">
                 {/* headings */}
                 <div className="max-w-xs">
-                    <a href="/" className="flex col items-center">
+                    <Link to="/" className="flex col items-center">
                         <img
                             className="h-6 md:h-8 w-auto"
                             src={logo}
                             alt=""
                         />
                         <span className="pl-[0.125rem] md:pl-1 text-lg md:text-xl font-bold text-indigo-600">Counter</span>
-                    </a>
+                    </Link>
                 </div>
                 <div className="flex flex-col justify-end min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
                     <h1 className="font-bold">Policies</h1>
@@ -37,7 +37,7 @@ const Footer = () => {
                 <div className="flex flex-col min-w-max text-xs md:text-sm text-neutral-800 dark:text-neutral-400">
                     <a href="https://docs.counterbot.app/"
                         className="hover:text-black dark:hover:text-neutral-200">Documentation</a>
-                    <a href="https://discord.gg/fnBrAqGDbu" target="_blank" rel="noreferrer"
+                    <a href="https://discord.gg/BdjUTS8tb3" target="_blank" rel="noreferrer"
                         className="hover:text-black dark:hover:text-neutral-200">Support</a>
                     <a href="https://discord.com/api/oauth2/authorize?client_id=1386688760518803526&permissions=8&scope=bot%20applications.commands" target="_blank" rel="noreferrer"
                         className="hover:text-black dark:hover:text-neutral-200">Invite Counter</a>
